@@ -10,7 +10,7 @@ var app = new Vue({
 			this.productList.push({"productName": this.productName, "productPrice": this.productPrice});
 			this.productName = "";
 			this.productPrice = "";
-		}
+		},
 	},
 	computed: {
 		totalProducts() {
